@@ -5,26 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Matteo Ferro - Personal Website</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
     body {
       font-family: 'Arial', sans-serif;
       background-color: white;
       color: black;
-      display: flex;
-      align-items: center;
+      text-align: center; /* Center title and links */
       min-height: 100vh;
       flex-direction: column;
-    }
-    header {
-      background-color: lightslategray;
-      color: white;
-      width: 100%;
-      padding: 1rem;
-      text-align: center;
     }
     nav a {
       color: black;
@@ -32,31 +19,15 @@
       margin: 0 15px;
       font-weight: bold;
     }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    .container {
-      max-width: 800px;
-      text-align: center;
-      padding: 2rem;
-    }
     h1 {
       font-size: 3rem;
       color: black;
       margin-bottom: 1rem;
     }
-    p {
-      font-size: 1.2rem;
-      line-height: 1.6;
-    }
-    .highlight {
-      color: red;
-      font-weight: bold;
-    }
-    footer {
-      margin-top: 2rem;
-      font-size: 0.9rem;
-      color: grey;
+    .content {
+      text-align: left; /* Align sections to the left */
+      margin: 0 auto;
+      max-width: 800px; /* Optional: limits the width */
     }
   </style>
 </head>
@@ -67,6 +38,27 @@
     <a href="about.html">About Me</a> |
     <a href="publications.html">Publications</a>
   </nav>
-  <p>Details about my projects and what I've worked on.</p>
+  <p>Here is a list of the projects I worked on, last update: 22.10.2024.</p>
+
+  <div class="content">   
+  <br><br>
+  <h2>Do doctors that take a medication prescribe it more often?</h2>
+  2024-2025, FIMM, DSGE Lab, PhD project 
+  
+  <h2>High-throughput examination of family influence on disease diagnosis</h2>
+  2024, FIMM, DSGE Lab
+
+  <h2>A graph neural network approach for disease prediction based on a nationwide pedigree</h2>
+  2023-2024, FIMM, DSGE Lab
+
+  <h2>Detailed Longitudinal 2.0 script</h2>
+  2024, FIMM, DSGE Lab
+  <br>Script: <a href="https://github.com/dsgelab/Finregistry_detailed_longitudinal_and_endpoint_generation/tree/main/Detailed_Longitudinal">GitHub</a>
+  
+
+  <h2>Clustered Statin Adherence Trajectories: A Study on Disease Onset</h2>
+  2022-2023, FIMM, DSGE Lab, Master's Thesis project
+
+  </div>   
 </body>
 </html>
